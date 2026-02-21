@@ -1,0 +1,79 @@
+# 🔒 SECURITY: Never commit sensitive data
+
+# API Keys & Tokens
+*token*.txt
+*secret*
+*.env
+telegram_bot_token.txt
+telegram_requirements.txt
+config.py
+
+# Personal Training Data (CRITICAL)
+*training_pairs*.json
+*conversations*.json
+comprehensive_training_pairs_enhanced.json
+comprehensive_training_pairs*.json
+deduplicated_training_pairs.json
+mega_training_pairs.json
+conversations.json
+imessage_search_results/
+personal_*
+intimate_*
+slutbot_*
+*conversation*.jsonl
+*.jsonl
+
+# Model Files & Checkpoints
+*_model/
+*_checkpoints/
+comprehensive_intimate_slutbot_model/
+comprehensive_slutbot_checkpoints/
+intimate_slutbot_model/
+models/
+
+# Runtime & Logs
+__pycache__/
+*.pyc
+*.pyo
+venv/
+bot_training_env/
+*.log
+bot.log
+
+# Backups (may contain sensitive data)
+backups/
+backup_*/
+
+# Temporary files
+chats/
+data/
+training/
+temp_*
+*_backup_*
+
+# Test outputs that might reveal sensitive info
+test_*.py
+debug_*.py
+
+# HTML files (may contain training data)
+*.html
+conversation_browser.html
+
+# Any file with personal identifiers
+*martin*
+*walter*
+*intimate*
+*puta*
+*sexual*
+*explicit*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
